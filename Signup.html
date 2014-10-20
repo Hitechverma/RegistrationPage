@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project 1</title>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="css/sinupstyle.css">
+	</head>
+	<body>
+			<form method="GET" action="http://localhost/project/upload.php" class="sinup">
+				<h1>Resistraion Form<span>Please Enter your Details</span></h1>
+			<table border=0 align="left">
+			<tr>
+				<td>
+				First Name:</td>
+				<td>
+					<input type="text" placeholder="First name" size="20" maxlength="20" name="name">
+				</td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" placeholder="Last Name" size="20" maxlength="20" name="lname">
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td>
+					<input type="password" placeholder="password" size="20" maxlength="20" name="passw">
+				</td>
+			</tr>
+			<tr>
+				<td>Retype Password:</td>
+				<td>
+					<input type="password" placeholder="password" size="20" maxlength="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" placeholder="example@example.com" name="email"></td>
+			</tr>
+			<tr>
+				<td>
+					Sex:
+				</td>
+				<td>
+					<input type="radio" name="sex" value="male">MaLe
+					<input type="radio" name="sex" value="female">FemaLe
+				</td>
+			</tr><br>
+			<tr>
+				<td>
+					Graduation:
+				</td>
+				<td>
+					<select name="Graduation">
+					<option selected="selected">Select Option</option>
+					<option value="10"> 10th</option>
+					<option value="12"> 12th </option>
+					<option value="dip"> Diploma</option>
+					<option value="bsc">B.Sc</option>
+					<option value="btech">B.Tech</option>
+					<option value="mtech">M.Tech</option>
+					</select>
+				</td>
+			</tr><br>
+			<tr>
+				<td>Terms and Conditions:</td>
+				<td>
+				<textarea name="comment" cols="50" rows="3" wrap="virtual">
+				1.ahchs;uvh;uiwbifbciabiuvbiuabifubewc
+				2.sbivbiuabvuibvpibeihbviphbaspivbiurbv
+				3.sdkjvnasijvnijsavjijvbuoibaouvoweuivoubu
+
+				</textarea><br>
+				<td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="checkbox"name="agree"value="agree">I agree to the terms and Condition of th page. <br>
+				</td>
+			</tr>
+			<tr>	
+				<td colspan="2">
+				<input type="submit" value="Submit" class="button" name="submit">
+				<input type="reset" value="Clear" class="button" name="reset">
+				</td>
+			</tr>
+			</table>	
+		</form>
+	</body>
+</html>

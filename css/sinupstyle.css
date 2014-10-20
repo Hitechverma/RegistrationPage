@@ -1,0 +1,60 @@
+*{
+    font-family:cursive;
+}
+
+body{
+    background-image: url("/home/hitech/Form/imgs/fix.jpg");
+    background-size: 1500px 1100px;
+    background-repeat: no-repeat;
+    font color: #CC2EFA;
+}
+.sinup h1 {
+    font: 50px Georgia, "Times New Roman", Times, serif;
+
+    padding: 0px 0px 10px 400px;
+    display: block;
+    /*border-bottom: 1px solid #DADADA;*/
+    margin: 10px 30px 30px -30px;
+    color: #888;
+}
+.sinup h1>span {
+    display: block;
+    font-size: 20px;
+}
+
+.button{
+    color: #58FAF4;
+    background-color: #2E2EFE;
+    border-radius: 5px;
+}
+table{
+	margin-top: -70px;'
+	margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 320px;
+    /*margin-right: 200px;*/
+    /*border-width: 5px;*/
+    /*background-color: #CED8F6;*/
+    
+    /*border-radius: 10px;*/
+    /*border-style: outset;*/
+    font-size: 20px ;
+}
+td{
+	padding: 20px 10px 0px 20px;
+}
+input ,textarea, select{
+	border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+   resize: none;
+   height: 50px;
+   width: 250px;
+}
+
+.button:hover{
+     width: 55px;
+     height: 30px;
+ }
+
