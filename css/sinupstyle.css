@@ -26,6 +26,8 @@ body{
     color: #58FAF4;
     background-color: #2E2EFE;
     border-radius: 5px;
+    width: 70px;
+    height: 30px;
 }
 table{
 	margin-top: -70px;'
@@ -54,7 +56,7 @@ textarea {
 }
 
 .button:hover{
-     width: 55px;
+     width: 72px;
      height: 30px;
  }
 
